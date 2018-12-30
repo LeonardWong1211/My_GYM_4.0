@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/time"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Around" />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="News" />
+
+        <item
+            android:id="@+id/course"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Course" />
+
+        <item
+            android:id="@+id/coach"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Coachlists" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Contact" />
+
+
+    </group>
+
+    <item android:title="Me">
+        <menu>
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="profile" />
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Login/Switch account" />
+        </menu>
+    </item>
+
+</menu>
